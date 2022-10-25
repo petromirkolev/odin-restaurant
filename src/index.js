@@ -7,12 +7,15 @@ import homeView from "../views/Home";
 import aboutView from "../views/About";
 import contactView from "../views/Contact";
 import "../src/style.css";
+import gitHubIcon from "../src/images/GitHub-Mark-Light-120px-plus.png";
 
 // Load home screen on page load
 window.addEventListener("load", (e) => {
   homeView(content);
   document.querySelector(".home").style.display = "flex";
 });
+
+document.querySelector(".footer-img").src = gitHubIcon;
 
 // Show different pages based on menu input
 btnMenu.addEventListener("click", (e) => {
