@@ -1,0 +1,25 @@
+{
+  "name": "odin-restaurant",
+  "version": "1.0.0",
+  "description": "Simple restaurant page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petromirkolev/odin-restaurant.git"
+  },
+  "author": "Petromir Kolev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petromirkolev/odin-restaurant/issues"
+  },
+  "homepage": "https://github.com/petromirkolev/odin-restaurant#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
