@@ -6,6 +6,7 @@ const btnMenu = document.querySelector(".header-menu");
 import homeView from "../views/Home";
 import aboutView from "../views/About";
 import contactView from "../views/Contact";
+import "../src/style.css";
 
 // Load home screen on page load
 window.addEventListener("load", (e) => {
