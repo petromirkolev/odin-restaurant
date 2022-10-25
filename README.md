@@ -14,7 +14,7 @@ Simple restaurant page for practicing Webpack build.
 
 ### ✔ Done
 
-- [x] Build with Webpack
+- [x] Built with Webpack
 
 # 📖 Bugs to fix
 
