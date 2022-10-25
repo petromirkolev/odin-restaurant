@@ -18,7 +18,8 @@ body {
   display: flex;
   gap: 5px;
 }
-.header-logo {
+.header-logo,
+.header-logo-main {
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -102,4 +103,47 @@ footer {
   justify-content: center;
   position: absolute;
   bottom: 0;
+}
+
+@media screen and (max-width: 610px) {
+  .header {
+    margin-top: 0;
+  }
+  .header-logo {
+    display: none;
+  }
+  .header-logo-main {
+    width: 100vw;
+    min-height: 50px;
+    height: auto;
+    margin-top: 0;
+    border-radius: 0;
+  }
+  .header-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-menu button {
+    width: 100vw;
+    font-size: 1.2rem;
+    height: 30px;
+    border-radius: 0;
+  }
+  .home,
+  .about,
+  .contact {
+    display: flex;
+    max-width: 100%;
+    background-color: #395144;
+    color: #f0ebce;
+    margin: 0 5px 0 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+  }
+  footer {
+    position: sticky;
+  }
 }
