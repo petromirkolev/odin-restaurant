@@ -6,6 +6,7 @@
 body {
   background-color: #4e6c50;
 }
+/* Header styling */
 .header {
   display: flex;
   flex-direction: column;
@@ -52,4 +53,38 @@ body {
 }
 .header-menu button:active {
   transform: translateY(10px);
+}
+/* Page body styling */
+.page-content {
+  display: flex;
+  max-width: 80%;
+  color: #f0ebce;
+  margin: 0 10px 0 10px;
+  background-color: #395144;
+  margin-top: 50px;
+  padding: 50px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+}
+
+.home {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.about {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
 }
