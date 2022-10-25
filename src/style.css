@@ -9,6 +9,7 @@ body {
 /* Header styling */
 .header {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
@@ -34,6 +35,7 @@ body {
 }
 .header-menu {
   display: flex;
+  flex-wrap: wrap;
   gap: 5px;
 }
 .header-menu button {
@@ -55,12 +57,18 @@ body {
   transform: translateY(10px);
 }
 /* Page body styling */
-.page-content {
+main {
+  display: flex;
+  justify-content: center;
+}
+.home,
+.about,
+.contact {
   display: flex;
   max-width: 80%;
+  background-color: #395144;
   color: #f0ebce;
   margin: 0 10px 0 10px;
-  background-color: #395144;
   margin-top: 50px;
   padding: 50px;
   border-radius: 20px;
@@ -87,4 +95,11 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+}
+footer {
+  display: flex;
+  min-width: 100%;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
 }
